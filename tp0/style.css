@@ -1,0 +1,46 @@
+body{
+    margin: 0; /* remover a borda do navegador */
+}
+
+@font-face{
+    font-family: "Rundeck Smooth";
+    src: url("fonts/RundeckSmooth.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main{
+    background: #2b3f2f;
+    color: #f4efe4;
+    padding: 100px 20px;
+}
+
+.about{
+    background: #f4efe4;
+    color: black;
+    padding: 100px 20px;
+}
+
+.resume{
+    background: #2b3f2f;
+    color: #f4efe4;
+    padding: 100px 20px;
+}
+
+.experience{
+    background: #f4efe4;
+    color: black;
+    padding: 100px 20px;
+}
+
+.header{
+    font-family: "Rundeck Smooth", serif;
+    background: #2b3f2f;
+    color: #f4efe4;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 20px 24px;
+    font-size: 20px;
+}
