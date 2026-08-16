@@ -1,0 +1,2 @@
+# :hatching_chick: Computação Gráfica - ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=DEVELOPING&color=FF99FF&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/marinastefane/utf-cg-tp0?style=for-the-badge&logoColor=FF99FF&color=FF99FF) ![GitHub top language](https://img.shields.io/github/languages/top/marinastefane/utf-cg-tp0?style=for-the-badge&color=FF99FF)
+Repositório criado para armazenar exercicios e trabalhos da disciplina "Computação Gráfica" do 7° semestre - CEFET-MG!
