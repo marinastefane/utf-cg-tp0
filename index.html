@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+    </style>
+
+    <title>Marina Stefane - Portfólio</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="profile-photo">
+                <img src="icons/icone.png" alt="Foto" />
+            </div>
+            <h1>Marina Stefane</h1>
+            <p>
+                Desenvolvedora apaixonada por tecnologia, criatividade e experiências digitais.
+            </p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#resume">EDUCATION</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="#skills">SKILLS E HOBBIES</a>
+        </nav>
+    </aside>
+
+    <main>
+        <section class="home">
+            <p class="section-label">PORTFÓLIO</p>
+            <h2>Olá, eu sou <span>Marina.</span></h2>
+            <p>
+                Sou estudante de Engenharia de Computação no CEFET-MG, com foco em desenvolvimento de software e atuando principalmente em JavaScript e C/C++. Tenho experiência com HTML, CSS, Git/GitHub, além de conhecimentos em Java, Python e bancos de dados. Atualmente,
+                faço estágio na EloGroup, onde participo do desenvolvimento de soluções digitais voltadas às necessidades de clientes. Gosto de transformar problemas em soluções práticas e tenho buscado evoluir constantemente tanto na parte técnica quanto
+                na experiência do usuário.
+            </p>
+        </section>
+
+        <!-- educacao -->
+        <section class="resume" id="resume">
+            <p class="section-label">01 - EDUCATION</p>
+            <h2>Estudos</h2>
+
+            <div class="timeline-item">
+                <span class="timeline-date">2022.2 — PRESENTE</span>
+                <h3>Engenharia de Computação</h3>
+                <p>CEFET-MG</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">2025.1 - 2025.2</span>
+                <h3>Curso Google Cybersecurity</h3>
+                <p>GOOGLE</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">2018 - 2020</span>
+                <h3>Curso De Informática</h3>
+                <p>Cedaspy</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">2019 - 2021</span>
+                <h3>Ensino Médio Completo</h3>
+                <p>Colégio Tiradentes da PMMG</p>
+            </div>
+        </section>
+
+        <!-- experiencia -->
+        <section class="experience" id="experience">
+            <p class="section-label">02 - EXPERIENCE</p>
+            <h2>Experiência</h2>
+
+            <div class="timeline-item">
+                <span class="timeline-date">2025 - PRESENTE</span>
+                <h3>Software Development Intern</h3>
+                <p>EloGroup</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">2024 - 2026</span>
+                <h3>COMPET - PET de Engenharia</h3>
+                <p>CEFET-MG</p>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-date">02/2025 - 05/2025</span>
+                <h3>Grupo de Computação Competitiva - GCC</h3>
+                <p>CEFET-MG</p>
+            </div>
+        </section>
+
+        <!-- habilidades -->
+        <section class="skills" id="skills">
+            <p class="section-label">03 - SKILLS E HOBBIES</p>
+            <h2>Habilidades</h2>
+
+            <div class="skills-list">
+                <img src="icons/javascript.png" alt="JavaScript" class="skill-icon" />
+                <img src="icons/html5.png" alt="HTML" class="skill-icon" />
+                <img src="icons/css.png" alt="CSS" class="skill-icon" />
+                <img src="icons/git.png" alt="Git" class="skill-icon" />
+                <img src="icons/github.png" alt="GitHub" class="skill-icon" />
+                <img src="icons/cplusplus.png" alt="C++" class="skill-icon" />
+                <img src="icons/c.png" alt="C" class="skill-icon" />
+            </div>
+
+            <h2>Hobbies</h2>
+            <div class="skills-list">
+                <img src="icons/bola-de-la.png" alt="Croche" class="skill-icon" />
+                <img onclick="tocarHino()" src="icons/bola-de-futebol.png" alt="Galo" id="galo-icone" class="galo-btn" />
+                <img src="icons/controle-de-jogo.png " alt="Jogos-eletronicos " class="skill-icon" />
+                <img src="icons/luva-de-boxe.png " alt="Esportes " class="skill-icon" />
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js "></script>
+</body>
+
+</html>
